@@ -2,7 +2,7 @@
 library(sqldf)
 
 #import data to R
-last0_test <- read.csv("C:/Users/Skamali/Desktop/R Codes/CustomerTest_MostRepeat.csv", sep=",", header=TRUE)
+last0_test <- read.csv("~/Desktop/R Codes/CustomerTest_MostRepeat.csv", sep=",", header=TRUE)
 
 #Initialized the empty data frame for final answer
 Plan_test <- data.frame( customer_ID = numeric(0), plan = numeric(0), stringsAsFactors=F )
