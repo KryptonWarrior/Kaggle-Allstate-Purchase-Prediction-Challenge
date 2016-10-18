@@ -2,10 +2,8 @@
 
 rm(list = ls())
 
-Train = read.csv("C:/Users/shuang/Desktop/Kaggle Allstate Contest/train_new.csv", sep=",", header=TRUE)
-#Train = read.csv("C:/Users/shuang/Desktop/Kaggle Allstate Contest/train.csv", sep=",", header=TRUE, na.strings=c("","NA"))
-#Testold = read.csv("C:/Users/shuang/Desktop/Kaggle Allstate Contest/test_v2.csv",sep=",", header=TRUE)
-Test = read.csv("C:/Users/shuang/Desktop/Kaggle Allstate Contest/test_new.csv",sep=",", header=TRUE)
+Train = read.csv("~/Desktop/Kaggle Allstate Contest/train_new.csv", sep=",", header=TRUE)
+Test = read.csv("~/Desktop/Kaggle Allstate Contest/test_new.csv",sep=",", header=TRUE)
 
 # These adjustments are put in place to fit the current code
 Train = Train[,c(-1)]
