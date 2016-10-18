@@ -2,7 +2,7 @@
 library(sqldf)
 
 #import data to R
-SampleTest <- read.csv("C:/Users/Skamali/Desktop/R Codes/group_pur8.csv", sep=",", header=TRUE)
+SampleTest <- read.csv("~/Desktop/R Codes/group_pur8.csv", sep=",", header=TRUE)
 
 
 colnames(SampleTest)[23] <- "F0"
